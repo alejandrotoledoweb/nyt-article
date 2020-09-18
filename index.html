@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/cssreset.css">
+
   <link rel="stylesheet" href="styles/styles.css">
   <title>NYT Article Clone</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
@@ -11,15 +11,15 @@
 <body>
     <header>
       <nav>
-        <div>
-          <p>Hamburger</p>
-          <p>Search</p>
-          <a href="">SPACE AND COSMOS</a>
+        <div class="nav-icon" >
+          <p class="inline">Hamburger</p>
+          <p class="inline">Search</p>
+          <a class="inline" href="">SPACE AND COSMOS</a>
         </div>
-        <div>
+
           <h3>New York Times</h3>
-        </div>
-        <div>
+
+        <div class="nav-button">
           <button>Subscribe Now</button>
           <button>Log In</button>
         </div>
@@ -27,23 +27,25 @@
     </header>
 
     <main>
-      <section>
+      <section class="intro">
         <div class="title-section">
-          <h3>Space Ripples Reveal Big Bang's Smoking gun</h3>
-          <img src="https://via.placeholder.com/500" alt="">
-          <p>Alan Guth was one of the first physicists to 
-            hypothesize the existence of inflation, 
-            which explains how the universe expanded so 
-            uniformly and so quickly in the instant after 
-            the Big Bang 13.8 billion years ago.
-            Credit...Rick Friedman for The New York Times
-          </p>
+          <h1 class="center-text">Space Ripples Reveal Big Bang's Smoking gun</h1>
+          <div class="intro-image center-div">
+            <img src="https://via.placeholder.com/750" alt="">
+            <p>Alan Guth was one of the first physicists to 
+              hypothesize the existence of inflation, 
+              which explains how the universe expanded so 
+              uniformly and so quickly in the instant after 
+              the Big Bang 13.8 billion years ago.
+              Credit...Rick Friedman for The New York Times
+            </p>
+          </div>
         </div>
       </section>
-      <article>
+      <article class="article-layout">
         <div class="article-info">
           <h4>By Dennis Overbye</h4>
-          <p>March 17, 2014</p>
+          <p class="inline">March 17, 2014</p>
           <i class="fab fa-accessible-icon"></i>
           <i class="fab fa-accessible-icon"></i>
           <i class="fab fa-accessible-icon"></i>
@@ -67,8 +69,8 @@
         </div>
 
         <div class="thankyou">
-          <p>Thanks for reading The Times.
-            Subscribe to The Times</p>
+          <p><strong>Thanks for reading The Times.
+            Subscribe to The Times</strong></p>
         </div>
 
         <div class="container-2">
@@ -90,7 +92,7 @@
             
           <p>Dr. Kovac and his collaborators, working in an experiment known as Bicep, for Background Imaging of Cosmic Extragalactic Polarization, reported their results in a scientific briefing at the Center for Astrophysics here on Monday and in a set of papers submitted to The Astrophysical Journal.</p>
         </div>
-
+      </article>
         <div class="theory">
           <div>
             <h2>The Theory of Inflation</h2>
@@ -99,54 +101,48 @@
           </div>
 
           <div class="theory-info">
-            <div  class="theory-row">
               <div>
-                <img src="https://via.placeholder.com/150" alt="">
+                <img src="https://via.placeholder.com/200" alt="">
                 <p>THE UNIVERSE  is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.</p>
               </div>
 
               <div>
-                <img src="https://via.placeholder.com/150" alt="">
+                <img src="https://via.placeholder.com/200" alt="">
                 <p>NOT ENOUGH TIME  The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, and there has not been enough time for scattered patches of hot and cold to mix into an even temperature.</p>
               </div>
 
               <div>
-                <img src="https://via.placeholder.com/150" alt="">
+                <img src="https://via.placeholder.com/200" alt="">
                 <p>DISTANT COFFEE  At a smaller scale, imagine using a telescope to look a mile in one direction. You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled</p>
               </div>
-
               <div>
-                <img src="https://via.placeholder.com/150" alt="">
+                <img src="https://via.placeholder.com/200" alt="">
                 <p>COFFEE EVERYWHERE  Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in every direction, you might want to look for another explanation.</p>
               </div>
 
-            </div>
-
-            <div class="theory-row">
               <div>
-                <img src="https://via.placeholder.com/150" alt="">
+                <img src="https://via.placeholder.com/200" alt="">
                 <p>STILL NOT ENOUGH TIME  There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature.</p>
               </div>
 
               <div>
-                <img src="https://via.placeholder.com/150" alt="">
+                <img src="https://via.placeholder.com/200" alt="">
                 <p>INFLATION  solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe</p>
               </div>
 
               <div>
-                <img src="https://via.placeholder.com/150" alt="">
+                <img src="https://via.placeholder.com/200" alt="">
                 <p>INFLATION  solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe</p>
               </div>
 
               <div>
-                <img src="https://via.placeholder.com/150" alt="">
+                <img src="https://via.placeholder.com/200" alt="">
                 <p>EXPANSION  Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot.</p>
               </div>
 
-            </div>
           </div>
         </div>
-
+      <article class="article-layout">
         <div class="container-3">
           <p>Dr. Kovac said the chance that the results were a fluke was only one in 10 million.</p>
           <p>Dr. Guth, now 67, pronounced himself “bowled over,” saying he had not expected such a definite confirmation in his lifetime.</p>

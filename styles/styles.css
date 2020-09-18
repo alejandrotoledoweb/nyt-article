@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p{
+  margin: 1rem 0;
+}
+.center-text {
+  text-align: center;
+}
+.inline {
+  display: inline;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid grey;
+  padding-top: 1rem;
+  align-items: center;
+}
+
+.nav-button{
+  padding-right: 2rem;
+}
+.nav-icon{
+  padding-left: 2rem;
+}
+
+main {
+  padding-top: 4rem;
+}
+
+.center-div {
+  margin: 0 auto;
+}
+
+.intro-image{
+  width: 750px;
+  
+}
+.article-info i {
+  float: right;
+  margin: 0 .3rem;
+}
+
+.article-layout {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.theory {
+  width: 1000px;
+  margin: 0 auto;
+}
+.theory-info {
+  display:grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  column-gap: 3rem;
+}
