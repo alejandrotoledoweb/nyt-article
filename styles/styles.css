@@ -107,3 +107,22 @@ main {
   width: 200px;
   padding:2rem 2rem ;
 }
+
+.popular-article h2 {
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid black;
+  font-family: Helvetica;
+}
+
+.popular-article a {
+  border-top: 1px solid gray;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  color: black;
+}
