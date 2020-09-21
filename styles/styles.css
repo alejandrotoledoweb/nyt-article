@@ -178,12 +178,28 @@ main {
   color: #888;
 }
 
+.social-media {
+  justify-content: space-between;
+}
+.social-media i {
+  margin: 0 .5rem;
+}
+.social-media button {
+  border: none;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 0 .3rem;
+  background-color: rgb(86, 123, 149);
+  color: white;
+}
+
 
 /*footer section*/
 .main-fcont {
   display: flex;
   width: 1200px;
-  margin: 0 auto;
+  margin: 2rem auto;
+  
 }
 
 .popular-article {
@@ -194,15 +210,22 @@ main {
 }
 .second-articles{
   width: 75%;
+  flex-direction: column;
 }
 .rec-articles {
   display: flex;
   
 }
 
+.footer-title {
+  padding:2rem 2rem 0 0;
+ border-top: 1px solid black;
+ margin-right: 10px;
+}
+
 .rec-articles div {
-  width: 200px;
-  padding:2rem 2rem ;
+  width: 272px;
+  padding:2rem 2rem 2rem 0;
 }
 
 .popular-article h2 {
