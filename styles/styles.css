@@ -26,12 +26,14 @@ nav {
   position: fixed;
   width: 100%;
   background-color: white;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid lightgray;
   padding-top: 1rem;
   align-items: center;
 }
 
-
+#nav-logo {
+  max-width: 12%;
+}
 
 .nav-button{
   padding-right: 2rem;
@@ -39,9 +41,21 @@ nav {
 .nav-icon{
   padding-left: 2rem;
 }
+.nav-icon a{
+  margin: 0 1rem;
+  text-decoration: none;
+}
+.nav-button button{
+  border: none;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 0 .3rem;
+  background-color: rgb(86, 123, 149);
+  color: white;
+}
 
 main {
-  padding-top: 4rem;
+  padding-top: 6rem;
 }
 
 .center-div {
