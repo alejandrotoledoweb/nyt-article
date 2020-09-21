@@ -35,7 +35,8 @@ To get a local copy up and running follow these simple example steps.
 - Clone or download the repo and run the HTML File.
 
 ### Run tests
-- We use Stylelint, Lighthout, & Webhint
+- [We use Stylelint, Lighthout, & Webhint](https://github.com/alejandrotoledoweb/nyt-article/actions/runs/265873431)
+- Linters #3: Pull request #2 synchronize by Janluc
 
 
 ## Authors
