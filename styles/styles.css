@@ -286,4 +286,25 @@ main {
   color: black;
 }
 
-.editor-ti {}
+.last-container {
+  border-left: 1px solid lightgray;
+  padding-left: 20px;
+}
+
+.last-section a {
+  padding: 5px 0px;
+}
+
+.final-section a {
+  padding: 3px 0px;
+  font-size: 12px;
+}
+.final-section {
+  padding: 5px 0px;
+  border-bottom: 1px solid lightgray;
+}
+
+.lang-section a {
+  padding: 3px 0px;
+  font-size: 12px;
+}
