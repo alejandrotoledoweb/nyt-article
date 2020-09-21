@@ -31,6 +31,8 @@ nav {
   align-items: center;
 }
 
+
+
 .nav-button{
   padding-right: 2rem;
 }
@@ -70,8 +72,20 @@ main {
 .thankyou a {
   position: relative;
   top: -13px;
-
 }
+
+.thankbar{
+  width: 100px;
+  border: 1px solid black;
+  margin: 0 auto
+}
+
+.edit-picks
+{
+  position: absolute;
+  right: 0px;
+}
+
 
 .theory {
   width: 1000px;
