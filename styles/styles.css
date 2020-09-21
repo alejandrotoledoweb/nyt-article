@@ -154,6 +154,7 @@ main {
   column-gap: 3rem;
 }
 
+/*footer section*/
 .main-fcont {
   display: flex;
   width: 1200px;
@@ -194,6 +195,45 @@ main {
   font-size: 1.125rem;
   font-weight: 500;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  color: black;
+}
+
+.site-nav {
+  margin: 20px 200px;
+  border-top: 5px double lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 20px;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-flex a {
+  text-decoration: none;
+  color: black;
+}
+
+.above-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.above-footer img {
+  width: 250px;
+}
+
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 200px 35px 200px;
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.contact-us a {
   text-decoration: none;
   color: black;
 }
