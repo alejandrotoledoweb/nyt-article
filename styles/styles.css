@@ -257,7 +257,6 @@ main {
 
 /*footer section*/
 .main-fcont {
-  display: flex;
   width: 1200px;
   margin: 2rem auto;
 }
@@ -266,7 +265,6 @@ main {
   margin: 0;
 }
 .popular-article {
-  display: flex;
   flex-direction: column;
   width: 25%;
 
@@ -274,10 +272,6 @@ main {
 .second-articles{
   width: 75%;
   flex-direction: column;
-}
-.rec-articles {
-  display: flex;
-  
 }
 
 .footer-title {
@@ -317,7 +311,6 @@ main {
 }
 
 .footer-flex {
-  display: flex;
   flex-direction: column;
 }
 
@@ -328,12 +321,10 @@ main {
 }
 
 .above-footer {
-  display: flex;
   justify-content: space-between;
   font-size: 13px;
 }
 .above-footer1 {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -351,7 +342,6 @@ main {
 }
 
 .contact-us {
-  display: flex;
   justify-content: space-between;
   font-size: 11px;
   padding-top: 5px;
