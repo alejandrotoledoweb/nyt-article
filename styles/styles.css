@@ -3,13 +3,14 @@
   padding: 0;
 }
 
- /*General CSS*/
+/* General CSS */
+
 p {
   margin: 1rem 0;
 }
 
 p a {
-  color: #326891
+  color: #326891;
 }
 
 .inline {
@@ -21,9 +22,10 @@ p a {
 }
 
 .helvetica {
-  font-family: helvetica,arial,sans-serif;
+  font-family: helvetica, arial, sans-serif;
 }
-/*Nav Bar*/
+
+/* Nav Bar */
 
 nav {
   justify-content: space-between;
@@ -42,26 +44,29 @@ nav {
 .nav-button {
   padding-right: 2rem;
 }
+
 .nav-icon {
   padding-left: 2rem;
   letter-spacing: 0.7px;
   transform: scale(0.8, 0.9);
 }
+
 .nav-icon a {
   margin: 0 1rem;
   text-decoration: none;
   color: black;
 }
-.nav-button button{
+
+.nav-button button {
   border: none;
   border-radius: 6px;
-  padding: .5rem;
-  margin: 0 .3rem;
+  padding: 0.5rem;
+  margin: 0 0.3rem;
   background-color: rgb(86, 123, 149);
   color: white;
 }
 
-/*Main Section of Article*/
+/* Main Section of Article */
 
 .article-layout {
   width: 600px;
@@ -69,6 +74,7 @@ nav {
   margin-top: 2rem;
   font-size: 1.25rem;
 }
+
 main {
   padding-top: 6rem;
 }
@@ -81,45 +87,47 @@ main {
   font-size: 34px;
   width: 30%;
   margin: 2rem auto;
-  font-family: georgia,'times new roman',times,serif;
+  font-family: georgia, 'times new roman', times, serif;
   font-style: italic;
 }
 
-.intro-image{
+.intro-image {
   width: 1080px;
   margin: 0 auto;
 }
+
 .intro-image span {
   color: #888;
   font-size: 14px;
 }
+
 .intro-image p {
   width: 75%;
-  font-family: georgia,'times new roman',times,serif;
+  font-family: georgia, 'times new roman', times, serif;
   color: #666;
 }
 
-.article-info{
+.article-info {
   padding-bottom: 1.5rem;
 }
 
 .article-info h4 {
   padding-bottom: 30px;
-} 
+}
 
 .article-info p {
   font-size: 16px;
 }
 
-.icon-circle{
+.icon-circle {
   background-color: lightgray;
   border-radius: 50%;
 }
 
 .article-info i {
   float: right;
-  margin: 0 .5rem;
-  padding: .5rem;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
   color: black;
   font-size: 16px;
 }
@@ -139,7 +147,7 @@ main {
 .thankbar {
   width: 100px;
   border: 1px solid lightgray;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .edit-picks-float {
@@ -167,6 +175,7 @@ main {
 .editor-pic {
   border-top: 1px solid lightgrey;
 }
+
 .editor-art img {
   width: 38%;
   float: left;
@@ -185,11 +194,11 @@ main {
 }
 
 .theory span {
-  color: #666
+  color: #666;
 }
 
 .theory-info {
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 3rem;
   margin-top: 1.5rem;
@@ -206,31 +215,35 @@ main {
   margin: 0 auto;
 }
 
-.image-display p{
+.image-display p {
   color: #666;
 }
-.image-display p span{
+
+.video-player span {
+  color: #888;
+}
+
+.image-display p span {
   color: #888;
   font-size: 14px;
-
 }
 
-.video-player { 
+.video-player {
   padding: 1rem 0;
 }
+
 .video-player p {
   width: 93%;
   color: #666;
   font-size: 15px;
 }
-.video-player span {
-  color: #888;
-}
+
 .little-message {
   font-size: 12px;
   color: #888;
 }
-.little-message a{
+
+.little-message a {
   font-size: 12px;
   color: #888;
 }
@@ -239,51 +252,54 @@ main {
   justify-content: space-between;
   align-items: center;
 }
+
 .social-media a {
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
   background-color: lightgray;
   border-radius: 50%;
-  padding: .5rem;
+  padding: 0.5rem;
   color: black;
 }
+
 .social-media button {
   border: none;
   border-radius: 6px;
-  padding: .5rem 5rem;
-  margin: 0 .3rem;
+  padding: 0.5rem 5rem;
+  margin: 0 0.3rem;
   background-color: rgb(86, 123, 149);
   color: white;
 }
 
+/* footer section */
 
-/*footer section*/
 .main-fcont {
   width: 1200px;
   margin: 2rem auto;
 }
 
-.main-fcont p{
+.main-fcont p {
   margin: 0;
 }
+
 .popular-article {
   flex-direction: column;
   width: 25%;
-
 }
-.second-articles{
+
+.second-articles {
   width: 75%;
   flex-direction: column;
 }
 
 .footer-title {
-  padding:1.3rem 2rem 0 0;
+  padding: 1.3rem 2rem 0 0;
   border-top: 1px solid black;
   margin-right: 10px;
 }
 
 .rec-articles div {
   width: 272px;
-  padding:2rem 2rem 2rem 0;
+  padding: 2rem 2rem 2rem 0;
 }
 
 .popular-article h2 {
@@ -325,16 +341,17 @@ main {
   justify-content: space-between;
   font-size: 13px;
 }
-.above-footer1 {
+
+.footer-content {
   justify-content: space-between;
   align-items: center;
 }
 
-
-.above-footer1 img {
+.footer-content img {
   width: 250px;
 }
-.above-footer1 a {
+
+.footer-content a {
   color: rgb(86, 123, 149);
   font-size: 11px;
   font-weight: 400;
@@ -362,20 +379,21 @@ main {
 }
 
 .last-section a {
-  padding: 5px 0px;
+  padding: 5px 0;
 }
 
 .final-section a {
-  padding: 3px 0px;
+  padding: 3px 0;
   font-size: 12px;
 }
+
 .final-section {
-  padding: 5px 0px;
+  padding: 5px 0;
   border-bottom: 1px solid lightgray;
 }
 
 .lang-section a {
-  padding: 3px 0px;
+  padding: 3px 0;
   font-size: 12px;
 }
 
@@ -396,9 +414,10 @@ main {
   position: relative;
   right: 300px;
   float: right;
- }
+}
 
- .expand-cont {
-   margin: 0 1rem;
-   text-decoration: none;
- }
+.expand-cont {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: black;
+}
