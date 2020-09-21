@@ -43,7 +43,6 @@ nav {
 }
 .nav-icon {
   padding-left: 2rem;
-  font-family: helvetica,arial,sans-serif;
   letter-spacing: 0.7px;
   transform: scale(0.8, 0.9);
 }
@@ -104,7 +103,6 @@ main {
 }
 
 .article-info h4 {
-  font-family: helvetica,arial,sans-serif;
   padding-bottom: 30px;
 } 
 
@@ -127,7 +125,6 @@ main {
 
 .thankyou {
   text-align: center;
-  font-family: Helvetica, sans-serif;
   font-size: 12px;
 }
 
@@ -152,7 +149,6 @@ main {
 
 .editor-title {
   font-size: 15px;
-  font-family: Helvetica;
   color: black;
 }
 
@@ -256,7 +252,6 @@ main {
   margin: 0 .3rem;
   background-color: rgb(86, 123, 149);
   color: white;
-  font-family: helvetica, arial, sans-serif;
 }
 
 
@@ -265,8 +260,6 @@ main {
   display: flex;
   width: 1200px;
   margin: 2rem auto;
-  font-family: Helvetica, sans-serif;
-  
 }
 
 .main-fcont p{
@@ -303,7 +296,6 @@ main {
   padding-top: 20px;
   padding-bottom: 20px;
   border-top: 1px solid black;
-  font-family: Helvetica;
 }
 
 .popular-article a {
@@ -339,7 +331,6 @@ main {
   display: flex;
   justify-content: space-between;
   font-size: 13px;
-  font-family: helvetica, arial, sans-serif;
 }
 .above-footer1 {
   display: flex;
@@ -353,7 +344,6 @@ main {
 }
 .above-footer1 a {
   color: rgb(86, 123, 149);
-  font-family: helvetica, arial, sans-serif;
   font-size: 11px;
   font-weight: 400;
   line-height: 11px;
@@ -368,7 +358,6 @@ main {
   width: 55%;
   margin: 0 auto;
   margin-bottom: 5rem;
-  font-family: helvetica,arial,sans-serif;;
 }
 
 .contact-us a {
@@ -409,7 +398,6 @@ main {
   border-top: 1px solid black;
   padding: 1.5rem;
   clear: both;
-  font-family: helvetica, arial, sans-serif;
   font-size: 12px;
 }
 .bottom-nav p {
