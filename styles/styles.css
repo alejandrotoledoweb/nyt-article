@@ -2,24 +2,20 @@
   margin: 0;
   padding: 0;
 }
-p{
+ /*General CSS*/
+p {
   margin: 1rem 0;
 }
-.center-text {
-  text-align: center;
-}
+
 .inline {
   display: inline;
 }
+
 .flex {
   display: flex;
 }
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
+/*Nav Bar*/
 
 nav {
   justify-content: space-between;
@@ -29,19 +25,20 @@ nav {
   border-bottom: 1px solid lightgray;
   padding-top: 1rem;
   align-items: center;
+  z-index: 1;
 }
 
 #nav-logo {
   max-width: 12%;
 }
 
-.nav-button{
+.nav-button {
   padding-right: 2rem;
 }
-.nav-icon{
+.nav-icon {
   padding-left: 2rem;
 }
-.nav-icon a{
+.nav-icon a {
   margin: 0 1rem;
   text-decoration: none;
 }
@@ -54,11 +51,24 @@ nav {
   color: white;
 }
 
+/*Main Section of Article*/
+
+.article-layout {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+}
 main {
   padding-top: 6rem;
 }
 
-.title-section h1{
+.container-1 {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.title-section h1 {
   font-size: 40px;
   width: 30%;
   margin: 2rem auto;
@@ -79,12 +89,6 @@ main {
   margin: 0 .3rem;
 }
 
-.article-layout {
-  width: 500px;
-  margin: 0 auto;
-  margin-top: 2rem;
-}
-
 .thankyou {
   text-align: center;
   font-family: nyt-franklin, Helvetica, sans-serif;
@@ -96,23 +100,54 @@ main {
   top: -13px;
 }
 
-.thankbar{
+.thankbar {
   width: 100px;
   border: 1px solid black;
   margin: 0 auto
 }
 
-.edit-picks
-{
+.edit-picks-float {
   position: absolute;
-  right: 0px;
+  right: 200px;
+  width: 200px;
 }
 
+.editor-title {
+  font-size: 15px;
+  font-family: Helvetica;
+  color: black;
+}
+
+.edit-picks-float p {
+  font-size: 14px;
+}
+
+.editor-art {
+  display: block;
+  float: left;
+  clear: both;
+  padding-top: 10px;
+}
+
+.editor-pic {
+  border-top: 1px solid lightgrey;
+}
+.editor-art img {
+  width: 38%;
+  float: left;
+  padding: 10px;
+}
+
+.editor-art p {
+  position: relative;
+  top: -6px;
+}
 
 .theory {
   width: 1000px;
   margin: 0 auto;
 }
+
 .theory-info {
   display:grid;
   grid-template-columns: 200px 200px 200px 200px;
