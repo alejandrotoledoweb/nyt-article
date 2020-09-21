@@ -219,8 +219,8 @@ main {
 
 .footer-title {
   padding:2rem 2rem 0 0;
- border-top: 1px solid black;
- margin-right: 10px;
+  border-top: 1px solid black;
+  margin-right: 10px;
 }
 
 .rec-articles div {
@@ -285,3 +285,5 @@ main {
   text-decoration: none;
   color: black;
 }
+
+.editor-ti {}
