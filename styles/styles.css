@@ -390,9 +390,6 @@ main {
   clear: both;
   font-size: 12px;
 }
-.bottom-nav p {
-  display: inline;
-}
 
 .expand-nav {
   position: relative;
