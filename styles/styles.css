@@ -58,13 +58,21 @@ main {
   padding-top: 6rem;
 }
 
-.center-div {
-  margin: 0 auto;
+.title-section h1{
+  font-size: 40px;
+  width: 30%;
+  margin: 2rem auto;
+  font-family: georgia,'times new roman',times,serif;
 }
 
 .intro-image{
-  width: 750px;
-  
+  width: 1080px;
+  margin: 0 auto;
+}
+.intro-image p {
+  width: 75%;
+  font-family: georgia,'times new roman',times,serif;
+  color: #666;
 }
 .article-info i {
   float: right;
