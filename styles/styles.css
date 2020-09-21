@@ -154,6 +154,31 @@ main {
   column-gap: 3rem;
 }
 
+.theory-line {
+  width: 5%;
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+.image-display {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.image-display p{
+  color: #666;
+}
+.image-display p span{
+  color: #888;
+  font-size: 14px;
+
+}
+.little-message {
+  font-size: 12px;
+  color: #888;
+}
+
+
 /*footer section*/
 .main-fcont {
   display: flex;
