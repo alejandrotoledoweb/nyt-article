@@ -16,8 +16,7 @@ A clone of a New York Times Article page, made using HTML and CSS and implementi
 
 ## Live Demo
 
-[Live Demo Link](
-)
+[Live Demo Link](https://rawcdn.githack.com/alejandrotoledoweb/nyt-article/d310f128b6c58b22066b6148ce8785b774805c77/index.html)
 
 
 ## Getting Started
