@@ -8,7 +8,6 @@ A clone of a New York Times Article page, made using HTML and CSS and implementi
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
