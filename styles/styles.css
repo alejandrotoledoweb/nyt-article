@@ -91,6 +91,10 @@ p a {
   position: fixed;
 }
 
+.p-absolute {
+  position: absolute;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -103,6 +107,10 @@ p a {
   padding: 3px 0;
 }
 
+.mr-2r {
+  margin-right: 2rem;
+}
+
 /* Nav Bar */
 
 nav {
@@ -112,8 +120,25 @@ nav {
   z-index: 1;
 }
 
+#nav-logo {
+  text-align: center;
+}
+
+.nav-icon a {
+  margin: 0 1rem;
+}
+
+.editor-art img {
+  width: 38%;
+  padding: 10px;
+}
+
+.footer-content img {
+  width: 250px;
+}
+
 #nav-logo img {
-  max-width: 12%;
+  width: 15%;
 }
 
 .nav-button {
@@ -124,10 +149,6 @@ nav {
   padding-left: 2rem;
   letter-spacing: 0.7px;
   transform: scale(0.8, 0.9);
-}
-
-.nav-icon a {
-  margin: 0 1rem;
 }
 
 .nav-button button {
@@ -223,39 +244,41 @@ main {
   border-top: 1px solid lightgrey;
 }
 
-.editor-art img {
-  width: 38%;
-  padding: 10px;
-}
-
 .editor-art p {
   top: -6px;
 }
 
 .theory {
-  width: 100%;
-  padding-bottom: 1rem;
+  width: 1200px;
 }
 
 .theory-cont {
-  max-width: 70%;
+  max-width: 75%;
+}
+
+.theory-description {
+  top: 130px;
+}
+
+.theory-description2 {
+  top: 430px;
 }
 
 .theory-info-pic {
-  max-width: 100%;
+  width: 1000px;
 }
 
 .theory-info {
-  display: grid;
-  grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
-  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
-  column-gap: 1rem;
-  row-gap: 12rem;
-  margin-top: 1.5rem;
-  position: absolute;
-  bottom: -3440px;
-  right: 250px;
-  max-width: 70%;
+  position: relative;
+  left: -30px;
+}
+
+.theory-info p {
+  width: 225px;
+}
+
+#theory-author {
+  margin-top: 2rem;
 }
 
 .theory-line {
@@ -369,10 +392,6 @@ main {
   align-items: center;
 }
 
-.footer-content img {
-  width: 250px;
-}
-
 .footer-content a {
   color: rgb(86, 123, 149);
   font-weight: 400;
@@ -410,4 +429,10 @@ main {
 
 .expand-cont {
   margin: 0 1rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  aside {
+    visibility: hidden;
+  }
 }
