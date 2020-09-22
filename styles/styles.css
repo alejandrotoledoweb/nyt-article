@@ -9,6 +9,12 @@ p {
   margin: 1rem 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+
 p a {
   color: #326891;
 }
@@ -25,12 +31,73 @@ p a {
   font-family: helvetica, arial, sans-serif;
 }
 
+.georgia {
+  font-family: georgia, 'times new roman', times, serif;
+}
+
+.fsize-11 {
+  font-size: 11px;
+}
+
+.fsize-12 {
+  font-size: 12px;
+}
+
+.fsize-14 {
+  font-size: 14px;
+}
+
+.fsize-15 {
+  font-size: 15px;
+}
+
+.center-div {
+  margin: 0 auto;
+}
+
+.c-666 {
+  color: #666;
+}
+
+.c-888 {
+  color: #888;
+}
+
+.jfc-sb {
+  justify-content: space-between;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.p-5-0 {
+  padding: 5px 0;
+}
+
+.p-3-0 {
+  padding: 3px 0;
+}
+
 /* Nav Bar */
 
 nav {
-  justify-content: space-between;
-  position: fixed;
-  width: 100%;
   background-color: white;
   border-bottom: 1px solid lightgray;
   align-items: center;
@@ -53,8 +120,6 @@ nav {
 
 .nav-icon a {
   margin: 0 1rem;
-  text-decoration: none;
-  color: black;
 }
 
 .nav-button button {
@@ -70,7 +135,6 @@ nav {
 
 .article-layout {
   width: 600px;
-  margin: 0 auto;
   margin-top: 2rem;
   font-size: 1.25rem;
 }
@@ -87,24 +151,15 @@ main {
   font-size: 34px;
   width: 30%;
   margin: 2rem auto;
-  font-family: georgia, 'times new roman', times, serif;
   font-style: italic;
 }
 
 .intro-image {
   width: 1080px;
-  margin: 0 auto;
-}
-
-.intro-image span {
-  color: #888;
-  font-size: 14px;
 }
 
 .intro-image p {
   width: 75%;
-  font-family: georgia, 'times new roman', times, serif;
-  color: #666;
 }
 
 .article-info {
@@ -125,29 +180,23 @@ main {
 }
 
 .article-info i {
-  float: right;
   margin: 0 0.5rem;
   padding: 0.5rem;
-  color: black;
   font-size: 16px;
 }
 
 .thankyou {
   text-align: center;
-  font-size: 12px;
 }
 
 .thankyou a {
-  position: relative;
   top: -13px;
-  text-decoration: none;
   color: #326891;
 }
 
 .thankbar {
   width: 100px;
   border: 1px solid lightgray;
-  margin: 0 auto;
 }
 
 .edit-picks-float {
@@ -156,18 +205,8 @@ main {
   width: 200px;
 }
 
-.editor-title {
-  font-size: 15px;
-  color: black;
-}
-
-.edit-picks-float p {
-  font-size: 14px;
-}
-
 .editor-art {
   display: block;
-  float: left;
   clear: both;
   padding-top: 10px;
 }
@@ -178,23 +217,16 @@ main {
 
 .editor-art img {
   width: 38%;
-  float: left;
   padding: 10px;
 }
 
 .editor-art p {
-  position: relative;
   top: -6px;
 }
 
 .theory {
   width: 1000px;
-  margin: 0 auto;
   padding-bottom: 1rem;
-}
-
-.theory span {
-  color: #666;
 }
 
 .theory-info {
@@ -212,20 +244,6 @@ main {
 
 .image-display {
   width: 750px;
-  margin: 0 auto;
-}
-
-.image-display p {
-  color: #666;
-}
-
-.video-player span {
-  color: #888;
-}
-
-.image-display p span {
-  color: #888;
-  font-size: 14px;
 }
 
 .video-player {
@@ -234,22 +252,13 @@ main {
 
 .video-player p {
   width: 93%;
-  color: #666;
-  font-size: 15px;
-}
-
-.little-message {
-  font-size: 12px;
-  color: #888;
 }
 
 .little-message a {
-  font-size: 12px;
-  color: #888;
+  text-decoration: underline;
 }
 
 .social-media {
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -258,7 +267,6 @@ main {
   background-color: lightgray;
   border-radius: 50%;
   padding: 0.5rem;
-  color: black;
 }
 
 .social-media button {
@@ -303,7 +311,6 @@ main {
 }
 
 .popular-article h2 {
-  font-size: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-top: 1px solid black;
@@ -315,9 +322,6 @@ main {
   padding-bottom: 15px;
   font-size: 1.125rem;
   font-weight: 500;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-decoration: none;
-  color: black;
 }
 
 .site-nav {
@@ -332,18 +336,14 @@ main {
 }
 
 .footer-flex a {
-  text-decoration: none;
-  color: black;
   padding: 4px 0;
 }
 
 .above-footer {
-  justify-content: space-between;
   font-size: 13px;
 }
 
 .footer-content {
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -353,24 +353,14 @@ main {
 
 .footer-content a {
   color: rgb(86, 123, 149);
-  font-size: 11px;
   font-weight: 400;
   line-height: 11px;
-  text-decoration: none;
 }
 
 .contact-us {
-  justify-content: space-between;
-  font-size: 11px;
   padding-top: 5px;
   width: 55%;
-  margin: 0 auto;
   margin-bottom: 5rem;
-}
-
-.contact-us a {
-  text-decoration: none;
-  color: #666;
 }
 
 .last-container {
@@ -378,28 +368,11 @@ main {
   padding-left: 20px;
 }
 
-.last-section a {
-  padding: 5px 0;
-}
-
-.final-section a {
-  padding: 3px 0;
-  font-size: 12px;
-}
-
 .final-section {
-  padding: 5px 0;
   border-bottom: 1px solid lightgray;
 }
 
-.lang-section a {
-  padding: 3px 0;
-  font-size: 12px;
-}
-
 .bottom-nav {
-  width: 100%;
-  position: fixed;
   bottom: 0;
   text-align: center;
   background: white;
@@ -407,17 +380,12 @@ main {
   border-top: 1px solid black;
   padding: 1.5rem;
   clear: both;
-  font-size: 12px;
 }
 
 .expand-nav {
-  position: relative;
   right: 300px;
-  float: right;
 }
 
 .expand-cont {
   margin: 0 1rem;
-  text-decoration: none;
-  color: black;
 }
