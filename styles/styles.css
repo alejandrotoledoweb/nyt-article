@@ -138,6 +138,21 @@ nav {
   width: 250px;
 }
 
+.intro-image img {
+  width: 1080px;
+  height: 720px;
+}
+
+.image-display img {
+  width: 750px;
+  height: 500px;
+}
+
+.main-fcont img {
+  width: 272px;
+  height: 180px;
+}
+
 #nav-logo img {
   width: 30%;
 }
@@ -162,11 +177,6 @@ nav {
 }
 
 /* Main Section of Article */
-
-.intro-image img {
-  width: 1080px;
-  height: 720;
-}
 
 .article-layout {
   width: 600px;
@@ -297,11 +307,6 @@ main {
   width: 750px;
 }
 
-.image-display img {
-  width: 750px;
-  height: 500px;
-}
-
 .video-player {
   padding: 1rem 0;
 }
@@ -364,11 +369,6 @@ main {
 .rec-articles div {
   width: 272px;
   padding: 2rem 2rem 2rem 0;
-}
-
-.main-fcont img {
-  width: 272px;
-  height: 180px;
 }
 
 .popular-article h2 {
