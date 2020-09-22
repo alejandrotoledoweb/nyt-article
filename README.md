@@ -16,7 +16,8 @@ A clone of a New York Times Article page, made using HTML and CSS and implementi
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/alejandrotoledoweb/nyt-article/nyt-article/index.html)
+[Live Demo Link](
+)
 
 
 ## Getting Started
@@ -56,7 +57,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/alejandrotoledoweb/nyt-article/issues).
 
 ## Show your support
 
@@ -64,4 +65,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+N/A

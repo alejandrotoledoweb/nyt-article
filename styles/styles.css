@@ -122,6 +122,7 @@ nav {
 
 #nav-logo {
   text-align: center;
+  width: 600px;
 }
 
 .nav-icon a {
@@ -138,7 +139,7 @@ nav {
 }
 
 #nav-logo img {
-  width: 15%;
+  width: 30%;
 }
 
 .nav-button {
@@ -161,6 +162,11 @@ nav {
 }
 
 /* Main Section of Article */
+
+.intro-image img {
+  width: 1080px;
+  height: 720;
+}
 
 .article-layout {
   width: 600px;
@@ -291,6 +297,11 @@ main {
   width: 750px;
 }
 
+.image-display img {
+  width: 750px;
+  height: 500px;
+}
+
 .video-player {
   padding: 1rem 0;
 }
@@ -355,6 +366,11 @@ main {
   padding: 2rem 2rem 2rem 0;
 }
 
+.main-fcont img {
+  width: 272px;
+  height: 180px;
+}
+
 .popular-article h2 {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -400,7 +416,7 @@ main {
 
 .contact-us {
   padding-top: 5px;
-  width: 55%;
+  width: 70%;
   margin-bottom: 5rem;
 }
 
